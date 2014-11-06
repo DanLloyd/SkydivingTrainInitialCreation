@@ -60,3 +60,5 @@ C:\Users\Chris\Dropbox\the hunt for the skydiving train\SkydivingTrainInitialCre
 C:\Users\Chris\Dropbox\the hunt for the skydiving train\SkydivingTrainInitialCreation\SkydivingTrainInitialCreation\obj\Debug\convertedpdb\app.exe.mdb
 C:\Users\Chris\Dropbox\the hunt for the skydiving train\SkydivingTrainInitialCreation\SkydivingTrainInitialCreation\obj\Debug\app.exe
 C:\Users\Chris\Dropbox\the hunt for the skydiving train\SkydivingTrainInitialCreation\SkydivingTrainInitialCreation\obj\Debug\app.pdb
+C:\Users\Chris\Dropbox\the hunt for the skydiving train\SkydivingTrainInitialCreation\SkydivingTrainInitialCreation\bin\Debug\SkydivingTrainInitialCreation-unsigned\Application\Assets\spikedShip.PNG
+C:\Users\Chris\Dropbox\the hunt for the skydiving train\SkydivingTrainInitialCreation\SkydivingTrainInitialCreation\bin\Debug\SkydivingTrainInitialCreation-signed\Application\Assets\spikedShip.PNG

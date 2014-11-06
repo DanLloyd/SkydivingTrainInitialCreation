@@ -14,8 +14,9 @@ namespace SkydivingTrainInitialCreation
 		//GraphicsContext required for graphics, acts as a graphics 'instance'
 		private static GraphicsContext graphics;
 		private static Texture2D backgroundTexture;
+		private static Texture2D spaceshipTexture;
 		private static Sprite background;
-		
+		private static Sprite spaceship;
 		
 		
 		public static void Main (string[] args)
@@ -37,12 +38,21 @@ namespace SkydivingTrainInitialCreation
 			// Set up the graphics system
 			graphics = new GraphicsContext();
 			
+			//Load in spaceship
+			spaceshipTexture = new Texture2D("/Application/Assets/spikedShip.png", false);
+			
+			spaceship = new Sprite(graphics, spaceshipTexture);
+			spaceship.Position.X = 50;
+			spaceship.Position.Y = 50;
+			
 			//NOTE: Screen size for PSVITA = 960x544
 			backgroundTexture = new Texture2D("/Application/Assets/background.png", false);
 			
 			background = new Sprite(graphics, backgroundTexture);
 			background.Position.X = 0;
 			background.Position.Y = 0;
+			
+			
 
 		}
 
@@ -60,6 +70,7 @@ namespace SkydivingTrainInitialCreation
 			
 			//need to call Render() on each Sprite
 			background.Render();
+			spaceship.Render();
 
 			// Present the screen
 			graphics.SwapBuffers();
