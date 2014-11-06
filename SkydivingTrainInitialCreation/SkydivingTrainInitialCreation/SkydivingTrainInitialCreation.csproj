@@ -34,16 +34,26 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Sce.PlayStation.Core" />
+    <Reference Include="Sce.PlayStation.HighLevel.UI" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppMain.cs" />
+    <Compile Include="Sprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <ShaderProgram Include="shaders\Simple.fcg" />
     <ShaderProgram Include="shaders\Simple.vcg" />
+    <ShaderProgram Include="shaders\Sprite.fcg" />
+    <ShaderProgram Include="shaders\Sprite.vcg" />
   </ItemGroup>
   <ItemGroup>
     <PsmMetadata Include="app.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\background.png" />
+  </ItemGroup>
 </Project>

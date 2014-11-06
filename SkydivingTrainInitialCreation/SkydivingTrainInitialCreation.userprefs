@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SkydivingTrainInitialCreation\AppMain.cs">
+    <Files>
+      <File FileName="SkydivingTrainInitialCreation\AppMain.cs" Line="16" Column="36" />
+      <File FileName="SkydivingTrainInitialCreation\Sprite.cs" Line="51" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
